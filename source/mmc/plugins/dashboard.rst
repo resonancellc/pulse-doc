@@ -34,6 +34,7 @@ disabled. For example, to disable the shortcut and general panel:
 ::
 
     disabled_panels = shortcuts general
+::
 
     The available plugins are: 
         - inventory
