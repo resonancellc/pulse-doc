@@ -5,19 +5,18 @@
 Installation
 ============
 
-How to install the MMC (Mandriva Management Console) on a Linux distribution
+How to install the MMC  and Pulse on a Linux distribution
 
 Repositories configuration and packages installation
 ####################################################
 
-Mandriva users are lucky
+Mageia users are lucky
 ========================
 
-... because Mandriva RPM packages for the MDS and the MMC are available.
+... because Mageia RPM packages for the MDS and the MMC are available.
 
-Packages for Mandriva 2010.0, 2010.2, 2011.0 and Cooker are available on Mandriva
-official repositories. You will find an official mirror using `the Mandriva
-mirror finder module <http://api.mandriva.com/mirrors/list.php>`_.
+Packages for Mageia 6  and Cauldron are available on Mageia
+official repositories. 
 
 You can also add the repositories with the following command:
 
@@ -36,25 +35,11 @@ To install the MMC base packages, just type:
 Debian packages
 ===============
 
-For Debian Squeeze, add this in your sources.list:
-
-::
-
-    deb http://mds.mandriva.org/pub/mds/debian squeeze main
-
-For Debian Wheezy:
+For Debian Stretch:
 
 ::
 
     deb http://mds.mandriva.org/pub/mds/debian wheezy main
-
-To install MMC base packages, just type:
-
-::
-
-    # apt-get update
-    # apt-get install mmc-agent mmc-web-base python-mmc-base
-
 
 .. _other-packages:
 
