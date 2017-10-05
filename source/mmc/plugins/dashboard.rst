@@ -33,4 +33,22 @@ disabled. For example, to disable the shortcut and general panel:
 
 ::
 
-    disabled_panels = shortcut general
+    disabled_panels = shortcuts general
+
+    The available plugins are: 
+        - inventory
+        - antivirus
+        - os_repartition
+        - remotesupport
+        - license_panel 
+        - product_updates
+        - backup
+        - computersOnline
+        - plugins
+        - process
+        - shortcuts
+        - space
+        - general
+        - system
+        - services
+        - support
